@@ -1,0 +1,114 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>net.javaguides.springmvc</groupId>
+	<artifactId>springmvc5-hibernate5-jsp-mysql-example</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>springmvc5-hibernate5-jsp-mysql-example Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<failOnMissingWebXml>false</failOnMissingWebXml>
+		<spring.version>5.1.0.RELEASE</spring.version>
+		<hibernate.version>5.3.5.Final</hibernate.version>
+		<hibernate.validator>5.4.1.Final</hibernate.validator>
+		<c3p0.version>0.9.5.2</c3p0.version>
+		<jstl.version>1.2.1</jstl.version>
+		<tld.version>1.1.2</tld.version>
+		<servlets.version>3.1.0</servlets.version>
+		<jsp.version>2.3.1</jsp.version>
+		<hsqldb.version>1.8.0.10</hsqldb.version>
+	</properties>
+	<dependencies>
+		<!-- Spring MVC Dependency -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<!-- Spring ORM -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<!-- Hibernate Core -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.2.17.Final</version>
+		</dependency>
+
+		<!-- Hibernate-C3P0 Integration -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-c3p0</artifactId>
+			<version>${hibernate.version}</version>
+		</dependency>
+
+		<!-- c3p0 -->
+		<dependency>
+			<groupId>com.mchange</groupId>
+			<artifactId>c3p0</artifactId>
+			<version>${c3p0.version}</version>
+		</dependency>
+
+		<!-- Hibernate Validator -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>${hibernate.validator}</version>
+		</dependency>
+
+		<!-- JSTL Dependency -->
+		<dependency>
+			<groupId>javax.servlet.jsp.jstl</groupId>
+			<artifactId>javax.servlet.jsp.jstl-api</artifactId>
+			<version>${jstl.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>taglibs</groupId>
+			<artifactId>standard</artifactId>
+			<version>${tld.version}</version>
+		</dependency>
+
+		<!-- Servlet Dependency -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>${servlets.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- JSP Dependency -->
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>javax.servlet.jsp-api</artifactId>
+			<version>${jsp.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.47</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

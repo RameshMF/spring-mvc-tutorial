@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="net.javaguides.springmvc.config.AppContext" 
+    project="springmvc5-hibernate5-jsp-mysql-example" 
+    file="/springmvc5-hibernate5-jsp-mysql-example/src/main/java/net/javaguides/springmvc/config/AppContext.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="497" y="52"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="net.javaguides.springmvc.config.AppInitializer" 
+    project="springmvc5-hibernate5-jsp-mysql-example" 
+    file="/springmvc5-hibernate5-jsp-mysql-example/src/main/java/net/javaguides/springmvc/config/AppInitializer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="167" y="42"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="net.javaguides.springmvc.config.WebMvcConfig" 
+    project="springmvc5-hibernate5-jsp-mysql-example" 
+    file="/springmvc5-hibernate5-jsp-mysql-example/src/main/java/net/javaguides/springmvc/config/WebMvcConfig.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="289" x="707" y="-21"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="net.javaguides.springmvc.controller.CustomerController" 
+    project="springmvc5-hibernate5-jsp-mysql-example" 
+    file="/springmvc5-hibernate5-jsp-mysql-example/src/main/java/net/javaguides/springmvc/controller/CustomerController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="167" y="280"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="net.javaguides.springmvc.dao.CustomerDAO" 
+    project="springmvc5-hibernate5-jsp-mysql-example" 
+    file="/springmvc5-hibernate5-jsp-mysql-example/src/main/java/net/javaguides/springmvc/dao/CustomerDAO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="801" y="199"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="net.javaguides.springmvc.dao.CustomerDAOImpl" 
+    project="springmvc5-hibernate5-jsp-mysql-example" 
+    file="/springmvc5-hibernate5-jsp-mysql-example/src/main/java/net/javaguides/springmvc/dao/CustomerDAOImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="817" y="471"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="net.javaguides.springmvc.service.CustomerService" 
+    project="springmvc5-hibernate5-jsp-mysql-example" 
+    file="/springmvc5-hibernate5-jsp-mysql-example/src/main/java/net/javaguides/springmvc/service/CustomerService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="489" y="227"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="net.javaguides.springmvc.service.CustomerServiceImpl" 
+    project="springmvc5-hibernate5-jsp-mysql-example" 
+    file="/springmvc5-hibernate5-jsp-mysql-example/src/main/java/net/javaguides/springmvc/service/CustomerServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="497" y="479"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="net.javaguides.springmvc.entity.Customer" 
+    project="springmvc5-hibernate5-jsp-mysql-example" 
+    file="/springmvc5-hibernate5-jsp-mysql-example/src/main/java/net/javaguides/springmvc/entity/Customer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1016" y="305"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="10">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="11">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <association id="12">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="13" name="customerService"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="15">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="16" name="customerDAO"/>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

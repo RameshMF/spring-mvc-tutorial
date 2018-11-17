@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>net.javaguides.springmvc</groupId>
+	<artifactId>springmvc5-form-tags</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>springmvc5-form-tags Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<failOnMissingWebXml>false</failOnMissingWebXml>
+	</properties>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>5.1.0.RELEASE</version>
+		</dependency>
+
+		<!-- JSTL Dependency -->
+		<dependency>
+			<groupId>javax.servlet.jsp.jstl</groupId>
+			<artifactId>javax.servlet.jsp.jstl-api</artifactId>
+			<version>1.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>taglibs</groupId>
+			<artifactId>standard</artifactId>
+			<version>1.1.2</version>
+		</dependency>
+
+		<!-- Servlet Dependency -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- JSP Dependency -->
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>javax.servlet.jsp-api</artifactId>
+			<version>2.3.1</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+	<build>
+		<sourceDirectory>src/main/java</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
