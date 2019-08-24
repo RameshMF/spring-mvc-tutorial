@@ -19,7 +19,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 @PropertySource("classpath:database.properties")
 @EnableTransactionManagement
-@ComponentScan(basePackages = { "net.javaguides.springmvc" })
 public class AppContext {
 
 	@Autowired
